@@ -1,6 +1,6 @@
 From devopsedu/webapp
 Maintainer Vijay
-ADD /tmp/projCert1/websites/ /var/www/php
+ADD /tmp/gitrepo/website /var/www/php
 RUN rm /var/www/html/index.html
 CMD apachectl -D FOREGROUND
 EXPOSE 80
