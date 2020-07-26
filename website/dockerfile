@@ -1,4 +1,6 @@
-FROM devopsedu/webapp
-ADD . /var/www/html
+From devopsedu/webapp
+Maintainer Vijay
+ADD /tmp/vg/projCert1/websites/ /var/www/php
 RUN rm /var/www/html/index.html
 CMD apachectl -D FOREGROUND
+EXPOSE 80
