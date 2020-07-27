@@ -1,0 +1,5 @@
+FROM devopsedu/webapp
+#COPY index.php /var/www/html/
+RUN rm /var/www/html/index.php
+ADD / /var/www/html/
+CMD apachectl -D FOREGROUND
