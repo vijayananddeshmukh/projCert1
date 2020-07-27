@@ -1,8 +1,0 @@
-FROM devopsedu/webapp
-Maintainer Vijay
-RUN rm /var/www/html/index.html
-COPY /tmp/gitrepo/website/index.php /var/www/html/
-COPY /tmp/gitrepo/website/functions.php /var/www/html/
-COPY /tmp/gitrepo/website/config.php /var/www/html/
-CMD apachectl -D FOREGROUND
-
