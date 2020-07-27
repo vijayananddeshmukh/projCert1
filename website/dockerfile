@@ -2,5 +2,4 @@ FROM devopsedu/webapp
 Maintainer Vijay
 COPY . /var/www/html/
 CMD apachectl -D FOREGROUND
-EXPOSE 9999
 
