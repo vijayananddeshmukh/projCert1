@@ -1,5 +1,5 @@
 FROM devopsedu/webapp
 Maintainer Vijay
-COPY /tmp/gitrepo.tar /var/www/html/
+COPY ./ /var/www/html/
 CMD apachectl -D FOREGROUND
 
